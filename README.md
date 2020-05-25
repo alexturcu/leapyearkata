@@ -1,12 +1,16 @@
-##Acceptance Criteria
+Leap Year
+=========
 
-- is not leap year if it's not divisible by 4
-- is leap year if divisible by 4
-- is leap year if divisible by 400
-- is not leap year if divisible by 4 and 100 and is leap year if divisible by 400
+Rules
 
-## Examples:
-1997
-1996
-1600
-1800
+All the following rules must be satisfied:
+- Is NOT leap year if NOT divisible by 4
+- Is leap year is divisible by 4
+- Is leap year if divisible by 400
+- Is NOT leap year if divisible by 100 but NOT by 400
+
+Examples:
+- 1997 is NOT leap year  (not divisible by 4)
+- 1996 is leap year      (divisible by 4)
+- 1600 is leap year      (divisible by 400)
+- 1800 is NOT leap year  (divisible by 4, divisible by 100, NOT divisible by 400)
